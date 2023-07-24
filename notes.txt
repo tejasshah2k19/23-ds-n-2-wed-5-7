@@ -1,0 +1,173 @@
+DS -> ??? 
+
+C C++ Java Python --> DS????
+
+optim
+data arrange/manage 
+ 
+1) job
+
+time complexity -- time taken 
+space complexity -- space/memory taken ****
+memory -> add , read , delete 
+
+algo -> 
+
+sachin -> cr ->  
+----------------------------------------
+
+void main(){
+	 int a = 10; 
+	 a++ |  a=a+1 
+	printf("%d",a);//11
+}
+
+a++ -> 1 op , 1 a =>1   
+a=  a+1 =>  +  a 1  =>2 
+
+i++ 
+
+  
+a+1 => ALU  => MB register --> smallest --> fastest -> cost
+
+Register -> Cache -> Ram -> HDD | SSD  
+
+
+----------------------------------------
+whatsapp -> 
+message -> stack->		last -> first 
+
+x 
+y
+z
+	z
+	y
+	x
+
+array -> 9 10 11 
+stack -> reverse ->  LiFo -> 
+queue --> fifo 
+
+11 10 9 
+
+
+0:9 :1second 
+1:10 1second 
+2:11 1second 
+
+3second -> insert 
+						DS 
+	Linear DS 							NonLinear DS 
+
+	array								tree
+	stack								graph 
+	queue
+	linked list
+	
+	sorting 
+	
+	searching 
+
+
+------------------------------------------------------------------------------------------------------
+
+	turbo c -> 2 byte -> int  -> ???? 
+		memory ->  RAM 
+	
+	 	program -> primary memory -> 
+				RAM
+			STACK		HEAP 
+		decide?  
+
+		int x; // byte ?  
+
+
+
+	
+
+	compiler -> translate ->  translator -> 
+		.c -> GCC -> linux 
+		.c -> TC 
+		.c -> BC 
+		.c -> RC 
+
+	storage class -> 
+		auto --> automatically initialize -> value assign -> 
+		static*** 
+		extern --> 0 
+		register -->  
+	int y; 	// 0  -- global ---extern 	
+	void main(){
+		register int z; //stack -> RAM 
+		int x; //local --> auto  
+		printf("  %d",x); //3434  
+		printf("  %d",y); //0 	
+	}
+
+	register:cache:RAM
+
+-----------------------------------------------------------------------------------------
+how to reverse string using stack ?
+
+reverse string using any datastructure ? {stack}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
