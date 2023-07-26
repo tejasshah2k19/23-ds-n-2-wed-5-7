@@ -107,9 +107,9 @@ queue --> fifo
 	register:cache:RAM
 
 -----------------------------------------------------------------------------------------
-how to reverse string using stack ?
+stack -> call,msg,mail,gallery 
 
-reverse string using any datastructure ? {stack}
+Last In First Out --> stack 
 
 
 
