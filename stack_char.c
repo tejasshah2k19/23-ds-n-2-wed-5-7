@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SIZE 5
+#define SIZE 50
 
-int stack[SIZE];
+char stack[SIZE];
 int top = -1;
 
-void push(int num)
+void push(char c)
 {
     if (top == SIZE - 1)
     {
@@ -15,13 +15,13 @@ void push(int num)
     else
     {
         top++;
-        stack[top] = num;
+        stack[top] = c;
     }
 }
 
-int pop()
+char pop()
 {
-    int num;
+    char c;
     if (top == -1)
     {
         printf("\nSTACK IS EMPTY");
@@ -29,10 +29,10 @@ int pop()
     }
     else
     {
-        num = stack[top];
-        printf("\n %d POP", num);
+        c = stack[top];
+        printf("\n %c POP", c);
         top--;
-        return num;
+        return c;
     }
 }
 
@@ -41,7 +41,7 @@ void display()
     int i;
     for (i = top; i >= 0; i--)
     {
-        printf("\n%d", stack[i]);
+        printf("\n%c", stack[i]);
     }
 }
 
@@ -61,25 +61,34 @@ void peep(int location)
         }
         else
         {
-            printf("\n%d ", stack[index]);
+            printf("\n%c ", stack[index]);
         }
     }
 }
 
 int main()
 {
-    int choice, num, location;
+    int choice, i, location;
+    char c;
+    char str[SIZE];
+
     while (-1) // 0 is false
     {
         printf("\n1 For PUSH\n2 For POP\n3 For Display\n4 For Peep\n0 For Exit\nEnter your choice");
-        scanf("%d", &choice);
+        scanf("%d", &choice); // 123 -> buffer-> enter
 
         switch (choice)
         {
         case 1:
-            printf("\nEnter number");
-            scanf("%d", &num);
-            push(num);
+            printf("\nEnter String");
+            fflush(stdin);
+            gets(str); // r:0 o:1 y:2 a:3 l:4 \0:5 -> string termination character
+
+            for (i = 0; str[i] != '\0'; i++)
+            {                 // 0 1 2 3
+                push(str[i]); // r o y a l
+            }
+
             break;
         case 2:
             pop();

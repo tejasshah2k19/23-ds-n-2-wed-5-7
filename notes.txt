@@ -112,8 +112,19 @@ stack -> call,msg,mail,gallery
 Last In First Out --> stack 
 
 
+push pop display peep  
+peek -> top of the stack 
+poll -> {pop} 
 
+stack ->  
 
+	royal  -> stack 
+
+	print -> layor 
+
+	rev string using stack -> 
+
+-----------------------------------------------------------------------------------------
 
 
 
