@@ -167,8 +167,38 @@ search
 		isFound == 1 ? printf("\n%d Found",search): printf("\n%d Not found ",search);
 
 
+---------------------------------------------------------------------------
+sorting -> ASC DSC
+SIZE = 7 
 
-		
+0   1   2   3   4   5   6 
+10	9	11	76	45	32	3	
+
+
+0    1  2   3   4   5  6 
+9	10	11	45	32	3  76	
+                       j
+
+
+
+0    1  2   3   4   5  6 
+9	10	11	32	3   45 76	
+                       j
+
+bubble  sort -->
+
+for(i=1;i<SIZE;i++){ //6 
+	for(j=0;j<SIZE-1;j++)//6 
+		if( a[j] > a[j+1] )	{
+			tmp = a[j];
+			a[j] = a[j+1];
+			a[j+1] = tmp;
+		}
+	}
+}
+
+
+
 
 
 
