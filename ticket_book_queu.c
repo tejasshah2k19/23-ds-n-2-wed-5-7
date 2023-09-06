@@ -70,6 +70,7 @@ int main()
             strcpy(x.name, tmpname);
             x.contact = tmpcontact;
             x.qty = 1;
+            //
             insert(x);
             break;
         case 3:
