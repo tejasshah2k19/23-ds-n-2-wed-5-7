@@ -43,5 +43,79 @@ STOP -> Declare -> X IS THE WINNER OF THE GAME
 3) Once the GAME OVER you can print entire deck of winner    
 -------------------------------------------------------------
 
+1 2 3 4 5
+
+ 
+int a=10;  // 2 byte -> implicit memory allocation --static memory 
+
+int a[10]; // 20 byte 
+
+//3 -> 7 | 14 byte 
+//15 | -5 
+
+DMA 
+
+c -> 1) calloc()
+     2) malloc()
+     3) realloc()
+     4) free()
+
+c++ -> 1) new 
+       2) delete
+
+java -> 1) new 
+        2) gc()  =null  { }
+            System.gc()  
+python -> del 
+
+
+calloc vs malloc 
+stack->   
+heap-> 
+
+a = malloc(5)
+a = calloc(5,1)
+b = calloc(5,5) #5 byte - 5 block 
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
