@@ -230,6 +230,85 @@ linked list ->
 	list -> collection of n items 
 
 	
+List -> stack queue linkedlist 
+
+
+
+1)bracket validator (((()))) , ({(})) ,, {}{}[()]
+enter data 
+[][[{}]]
+valid  / invalid 
+stack 
+
+2) 15M2D6A23:16 { c:clear,d:delete,a:addition,m:multiplication}
+
+3) linkedlist -> 
+	input=>	    10		20		30		40		50	
+	output=>    10  15  20   25 30  35  40  45  50 
+	input =>	10		20		30		40	
+	output=>    10 15   20  25  30  35  40
+ 
+4) linkedlist ->{8} 
+	1	-> 0 -> 0	=> 4 
+	head 	
+----------------------------------------------------------------------------------------------
+
+void add(){
+	add(); //function calling itself 
+	sub();
+	mul()
+	//
+}
+
+//nesting 
+
+void sub(){
+	add();
+}
++----------------------------------------------
+
+
+
+
+void table(XXX){//num : 10 
+
+}
+
+10*1=10
+10*2=20
+------
+10*10=100 
+
+
+---------------------
+binary tree 
+
+binary search tree 	
+	1) binary tree 
+	2) parent node -> big -> right 
+	3) parent node -> small -> left 
+
+
+30 40 20 65 85 95 47 58 62 
+ 
+					30 
+				20		40 
+							65
+						47		85
+							58		95 
+							    62
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
