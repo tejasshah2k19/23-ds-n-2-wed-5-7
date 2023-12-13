@@ -1,420 +1,75 @@
-DS -> ??? 
-
-C C++ Java Python --> DS????
-
-optim
-data arrange/manage 
- 
-1) job
-
-time complexity -- time taken 
-space complexity -- space/memory taken ****
-memory -> add , read , delete 
-
-algo -> 
-
-sachin -> cr ->  
-----------------------------------------
-
-void main(){
-	 int a = 10; 
-	 a++ |  a=a+1 
-	printf("%d",a);//11
-}
-
-a++ -> 1 op , 1 a =>1   
-a=  a+1 =>  +  a 1  =>2 
-
-i++ 
-
-  
-a+1 => ALU  => MB register --> smallest --> fastest -> cost
-
-Register -> Cache -> Ram -> HDD | SSD  
-
-
-----------------------------------------
-whatsapp -> 
-message -> stack->		last -> first 
-
-x 
-y
-z
-	z
-	y
-	x
-
-array -> 9 10 11 
-stack -> reverse ->  LiFo -> 
-queue --> fifo 
-
-11 10 9 
-
-
-0:9 :1second 
-1:10 1second 
-2:11 1second 
-
-3second -> insert 
-						DS 
-	Linear DS 							NonLinear DS 
-
-	array								tree
-	stack								graph 
-	queue
-	linked list
-	
-	sorting 
-	
-	searching 
-
-
-------------------------------------------------------------------------------------------------------
-
-	turbo c -> 2 byte -> int  -> ???? 
-		memory ->  RAM 
-	
-	 	program -> primary memory -> 
-				RAM
-			STACK		HEAP 
-		decide?  
-
-		int x; // byte ?  
-
-
-
-	
-
-	compiler -> translate ->  translator -> 
-		.c -> GCC -> linux 
-		.c -> TC 
-		.c -> BC 
-		.c -> RC 
-
-	storage class -> 
-		auto --> automatically initialize -> value assign -> 
-		static*** 
-		extern --> 0 
-		register -->  
-	int y; 	// 0  -- global ---extern 	
-	void main(){
-		register int z; //stack -> RAM 
-		int x; //local --> auto  
-		printf("  %d",x); //3434  
-		printf("  %d",y); //0 	
-	}
-
-	register:cache:RAM
-
------------------------------------------------------------------------------------------
-stack -> call,msg,mail,gallery 
-
-Last In First Out --> stack 
-
-
-push pop display peep  
-peek -> top of the stack 
-poll -> {pop} 
-
-stack ->  
-
-	royal  -> stack 
-
-	print -> layor 
-
-	rev string using stack -> 
-
------------------------------------------------------------------------------------------
-
-search 
-	1) linear search
-	2) binary search 
-		1) array sorted 
-
-
-		11	22	33	44	55	66	77	88	99	100
-
-		search = 66
-		search = 88 
-		search = 22 
-		search = 95 
-
-
-		search = 66
-		0   1   2   3   4   5   6   7   8   9 
-		11	22	33	44	55	66	77	88	99	100
-		                     
-		min = 0
-		max = 9 
-
-
-		while(min <= max){ 
-			mid = (min + max) / 2  // 0+9 = 9 / 2 => 4  
-
-			if( a[mid ] == search ){
-				isFound =1;
-				break;
-			}else if ( search > a[mid]){
-				//right 
-				min = mid + 1 ; 
-			}else{
-				//left 
-				max = mid - 1;
-			}
-		
-		}
-
-		isFound == 1 ? printf("\n%d Found",search): printf("\n%d Not found ",search);
-
-
----------------------------------------------------------------------------
-sorting -> ASC DSC
-SIZE = 7 
-
-0   1   2   3   4   5   6 
-10	9	11	76	45	32	3	
-
-
-0    1  2   3   4   5  6 
-9	10	11	45	32	3  76	
-                       j
-
-
-
-0    1  2   3   4   5  6 
-9	10	11	32	3   45 76	
-                       j
-
-bubble  sort -->
-
-for(i=1;i<SIZE;i++){ //6 
-	for(j=0;j<SIZE-1;j++)//6 
-		if( a[j] > a[j+1] )	{
-			tmp = a[j];
-			a[j] = a[j+1];
-			a[j+1] = tmp;
-		}
-	}
-}
-
-
----------------------------------------------------------------------------
-selection sort -> 
-
----------------------------------------------------------------------------
-
-stack --> LiFo 
-		insert : push 
-		delete : pop
-		display : display 
-		peek  :  top of the element 
-		peep(location) : 
-
-
----------------------------------------------------------------------------
-
-queue ->  FiFo -> first in first out 
-
-1) movie ticket line 
-2) playlist 
-
-1) Printer 
-2) Resource Allocation 
-
-
-1) Traffic Signal 
-
----------------------------------------------------------------------------
-linked list -> 
-
-	list -> collection of n items 
-
-	
-List -> stack queue linkedlist 
-
-
-
-1)bracket validator (((()))) , ({(})) ,, {}{}[()]
-enter data 
-[][[{}]]
-valid  / invalid 
-stack 
-
-2) 15M2D6A23:16 { c:clear,d:delete,a:addition,m:multiplication}
-
-3) linkedlist -> 
-	input=>	    10		20		30		40		50	
-	output=>    10  15  20   25 30  35  40  45  50 
-	input =>	10		20		30		40	
-	output=>    10 15   20  25  30  35  40
- 
-4) linkedlist ->{8} 
-	1	-> 0 -> 0	=> 4 
-	head 	
-----------------------------------------------------------------------------------------------
-
-void add(){
-	add(); //function calling itself 
-	sub();
-	mul()
-	//
-}
-
-//nesting 
-
-void sub(){
-	add();
-}
-+----------------------------------------------
-
-
-
-
-void table(XXX){//num : 10 
-
-}
-
-10*1=10
-10*2=20
-------
-10*10=100 
-
-
----------------------
-binary tree 
-
-binary search tree 	
-	1) binary tree 
-	2) parent node -> big -> right 
-	3) parent node -> small -> left 
-
-
-30 40 20 65 85 95 47 58 62 
- 
-					30 
-				20		40 
-							65
-						47		85
-							58		95 
-							    62
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+AVL -> tree {Adelson, Velskii, and Landis}
  
 
+20 30 40 50 60 70 
+
+1) binary tree  {max 2 child }
+2) binary search tree {binary tree,parent node greater right, parent node smaller left}
+3) balance factor of node must be in [ -1 0 1 ]
+
+bf|node| = left height - right height 
+
+imbalance :-
+1)  right right imbalance - RR { 20 30 40 }  ==> leftRotate  
+2)  left left imbalance  -  LL { 40 30 20 }  ==> rightRotate 
+3)  right left imbalance -  RL {20 30 25}    ==> rightRotate,leftRotate 
+4)  left right imbalance -  LR {30 20 25}    ==> leftRotate,rightRotate
+
+
+identify the imbalance is present or not ? 
+if present then print balance factor and node who got the imbalance also print which imbalance 
+generated !
+
+76 86 99  -> RR 76 -2 
+
+
+50  60  40 -> 
+
+
+54   45    47 
+
+
+
+
+10 20 40 23 54 66 55  9 2 100 
+
+100 2 9 55 66 54 23 40 20 10 
+
+
+------------------------------------------------------------
+
+
+Graph -> 
+    non linear DS 
+
+
+    tree -> connected data set -> max 2 data {node}
+
+    when we want to connect multiple node - data line 
+
+    collection of vertices and edges 
+
+    node -> vertex 
+    line -> edge 
+
+    vertex -> data 
+    edge -> connector 
+
+    G = {V,E}
+
+linkedlist -> 
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+Royal App 
+    class User{ 
+            firstName ,email ,password 
+    }
+    
+n numbers -> ArrayList<User> 
 
 
 
